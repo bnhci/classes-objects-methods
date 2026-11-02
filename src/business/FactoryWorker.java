@@ -1,4 +1,4 @@
 package business;
 
-public class FactoryWorker {
+class FactoryWorker { // package-private — намеренно без public
 }

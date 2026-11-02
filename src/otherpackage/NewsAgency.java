@@ -1,8 +1,9 @@
-package business;
+package otherpackage;
 
 import business.Company;
+// import business.FactoryWorker; // не скомпилируется — package-private
 
-class NewsAgency {
+public class NewsAgency {
     Company company;
-    // FactoryWorker worker; // закомментировано: CEO запретил доступ к рабочим
+    // FactoryWorker worker; // ошибка компиляции — именно этого хотел CEO
 }

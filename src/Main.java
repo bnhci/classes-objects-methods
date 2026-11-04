@@ -18,11 +18,23 @@ public class Main {
 //        Bird bird = new  Bird();
 //        bird.sing();
 
-        Company company = new Company();
-        Company company1 = new Company();
-        System.out.println(company);
-        System.out.println(company1);
+//        Company company = new Company();
+//        Company company1 = new Company();
+//        System.out.println(company);
+//        System.out.println(company1);
+//
+//        String name = "Jake";
 
-        String name = "Jake";
+        String name = "Herman";
+        int age = 19;
+        double height = 193.3;
+        char first = 'H';
+        boolean isLikeCoffee = true;
+
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(first);
+        System.out.println(isLikeCoffee);
     }
 }

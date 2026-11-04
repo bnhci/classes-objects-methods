@@ -26,12 +26,12 @@ public class Main {
 //
 //        String name = "Jake";
 
-//        String name = "Herman";
-//        int age = 19;
-//        double height = 193.3;
-//        char first = 'H';
-//        boolean isLikeCoffee = true;
-//
+        var name = "Herman";
+        var age = 19;
+        var height = 193.3;
+        var first = 'H';
+        var isLikeCoffee = true;
+
 //        System.out.println(name);
 //        System.out.println(age);
 //        System.out.println(height);
@@ -50,7 +50,7 @@ public class Main {
         Person personA = new Person();
         Person personB = new Person();
 
-        System.out.println(personA);
-        System.out.println(personB);
+//        System.out.println(personA);
+//        System.out.println(personB);
     }
 }

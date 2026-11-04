@@ -41,6 +41,9 @@ public class Main {
 //        System.out.println(city);
 //        city = "Minsk";
 
-        int age = "Hello";
+//        int age = "Hello";
+
+        final int weekDay = 7;
+        weekDay = 1;
     }
 }

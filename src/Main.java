@@ -26,12 +26,12 @@ public class Main {
 //
 //        String name = "Jake";
 
-        var name = "Herman";
-        var age = 19;
-        var height = 193.3;
-        var first = 'H';
-        var isLikeCoffee = true;
-
+//        var name = "Herman";
+//        var age = 19;
+//        var height = 193.3;
+//        var first = 'H';
+//        var isLikeCoffee = true;
+//
 //        System.out.println(name);
 //        System.out.println(age);
 //        System.out.println(height);
@@ -47,10 +47,15 @@ public class Main {
 //        final int weekDay = 7;
 //        weekDay = 1;
 
-        Person personA = new Person();
-        Person personB = new Person();
-
+//        Person personA = new Person();
+//        Person personB = new Person();
+//
 //        System.out.println(personA);
 //        System.out.println(personB);
+
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        System.out.println(days.length);
+        System.out.println(days[0]);
+        System.out.println(days[days.length - 1]);
     }
 }

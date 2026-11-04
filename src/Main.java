@@ -37,8 +37,10 @@ public class Main {
 //        System.out.println(first);
 //        System.out.println(isLikeCoffee);
 
-        String city;
-        System.out.println(city);
-        city = "Minsk";
+//        String city;
+//        System.out.println(city);
+//        city = "Minsk";
+
+        int age = "Hello";
     }
 }

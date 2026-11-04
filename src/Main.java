@@ -1,3 +1,4 @@
+import business.Company;
 import library.Book;
 import library.Member;
 import model.Bird;
@@ -13,7 +14,15 @@ public class Main {
 //        System.out.println(b1);
 //        System.out.println(b2);
 //        System.out.println(m);
-        Bird bird = new  Bird();
-        bird.sing();
+
+//        Bird bird = new  Bird();
+//        bird.sing();
+
+        Company company = new Company();
+        Company company1 = new Company();
+        System.out.println(company);
+        System.out.println(company1);
+
+        String name = "Jake";
     }
 }

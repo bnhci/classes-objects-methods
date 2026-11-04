@@ -2,6 +2,7 @@ import business.Company;
 import library.Book;
 import library.Member;
 import model.Bird;
+import business.Person;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,7 +44,13 @@ public class Main {
 
 //        int age = "Hello";
 
-        final int weekDay = 7;
-        weekDay = 1;
+//        final int weekDay = 7;
+//        weekDay = 1;
+
+        Person personA = new Person();
+        Person personB = new Person();
+
+        System.out.println(personA);
+        System.out.println(personB);
     }
 }

@@ -25,16 +25,20 @@ public class Main {
 //
 //        String name = "Jake";
 
-        String name = "Herman";
-        int age = 19;
-        double height = 193.3;
-        char first = 'H';
-        boolean isLikeCoffee = true;
+//        String name = "Herman";
+//        int age = 19;
+//        double height = 193.3;
+//        char first = 'H';
+//        boolean isLikeCoffee = true;
+//
+//        System.out.println(name);
+//        System.out.println(age);
+//        System.out.println(height);
+//        System.out.println(first);
+//        System.out.println(isLikeCoffee);
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(height);
-        System.out.println(first);
-        System.out.println(isLikeCoffee);
+        String city;
+        System.out.println(city);
+        city = "Minsk";
     }
 }

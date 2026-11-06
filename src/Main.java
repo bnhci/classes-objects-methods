@@ -54,8 +54,6 @@ public class Main {
 //        System.out.println(personB);
 
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        System.out.println(days.length);
-        System.out.println(days[0]);
-        System.out.println(days[days.length - 1]);
+        System.out.println(days[7]);
     }
 }

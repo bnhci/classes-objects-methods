@@ -1,6 +1,8 @@
+import business.Company;
 import library.Book;
 import library.Member;
 import model.Bird;
+import business.Person;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +15,45 @@ public class Main {
 //        System.out.println(b1);
 //        System.out.println(b2);
 //        System.out.println(m);
-        Bird bird = new  Bird();
-        bird.sing();
+
+//        Bird bird = new  Bird();
+//        bird.sing();
+
+//        Company company = new Company();
+//        Company company1 = new Company();
+//        System.out.println(company);
+//        System.out.println(company1);
+//
+//        String name = "Jake";
+
+//        var name = "Herman";
+//        var age = 19;
+//        var height = 193.3;
+//        var first = 'H';
+//        var isLikeCoffee = true;
+//
+//        System.out.println(name);
+//        System.out.println(age);
+//        System.out.println(height);
+//        System.out.println(first);
+//        System.out.println(isLikeCoffee);
+
+//        String city;
+//        System.out.println(city);
+//        city = "Minsk";
+
+//        int age = "Hello";
+
+//        final int weekDay = 7;
+//        weekDay = 1;
+
+//        Person personA = new Person();
+//        Person personB = new Person();
+//
+//        System.out.println(personA);
+//        System.out.println(personB);
+
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        System.out.println(days[7]);
     }
 }
